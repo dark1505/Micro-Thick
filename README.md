@@ -50,66 +50,6 @@ and their impact on observable CMB anisotropies.
 
 ---
 
-## Implemented Physics
-
-### Background Cosmology
-
-Flat ΛCDM model
-
-\[
-H(z)=H_0
-\sqrt{
-\Omega_r(1+z)^4
-+
-\Omega_m(1+z)^3
-+
-\Omega_\Lambda
-}
-\]
-
-### Recombination
-
-Approximate ionization history
-
-\[
-x_e(z)
-\]
-
-based on a smooth transition around
-
-\[
-z_{rec}\approx1089
-\]
-
-### Optical Depth
-
-\[
-\tau(z)
-=
-\int_z^\infty
-\frac{c \sigma_T n_e(z')}
-{(1+z')H(z')}
-dz'
-\]
-
-### Visibility Function
-
-\[
-g(z)=e^{-\tau(z)}
-\frac{d\tau}{dz}
-\]
-
-### Sound Horizon
-
-\[
-r_s
-=
-\int
-\frac{c_s(z)}
-{H(z)}
-dz
-\]
-
 ### Toy CMB Spectrum
 
 Acoustic oscillations
@@ -128,42 +68,13 @@ The framework currently supports:
 
 ### Starobinsky Inflation
 
-\[
-n_s = 1-\frac{2}{N}
-\]
-
-\[
-r = \frac{12}{N^2}
-\]
-
 ### Quadratic Inflation
-
-\[
-V(\phi)=m^2\phi^2
-\]
 
 ### Quartic Inflation
 
-\[
-V(\phi)=\lambda \phi^4
-\]
-
 ### Natural Inflation
 
-\[
-V(\phi)=\Lambda^4
-\left[
-1+\cos(\phi/f)
-\right]
-\]
-
 ### α-Attractor Inflation
-
-\[
-r=\frac{12\alpha}{N^2}
-\]
-
----
 
 # Project Structure
 
