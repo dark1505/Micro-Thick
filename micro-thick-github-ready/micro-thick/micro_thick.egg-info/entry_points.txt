@@ -1,0 +1,3 @@
+[console_scripts]
+micro-thick-baseline = scripts.run_baseline:main
+micro-thick-inflation = scripts.run_inflation_models:main
